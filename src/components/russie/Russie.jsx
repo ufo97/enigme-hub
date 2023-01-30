@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/css/enigme-hub.css';
+import '../../assets/css/style.css';
 
 import SousComponent from './SousComponent';
 import Logo from '../common/Logo';

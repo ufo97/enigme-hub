@@ -1,13 +1,15 @@
-import React from "react";
+import React, { lazy } from "react";
 import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Blogs from './components/init/Blogs';
-import Russie from './components/russie/Russie.jsx';
-import NoPage from './components/common/NoPage.jsx';
-import ThisIsNotAWebsite from "./components/thisisnotawebsite/thisisnotawebsite.jsx";
+
+const Blogs = lazy(()=> import('./components/init/Blogs'));
+const Russie = lazy(()=> import('./components/russie/Russie.jsx'));
+const NoPage = lazy(()=> import('./components/common/NoPage.jsx'));
+const Japon = lazy(()=> import('./components/japon/Japon.jsx'));
+const ThisIsNotAWebsite = lazy(()=> import('./components/thisisnotawebsite/thisisnotawebsite.jsx'));
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,11 @@ const router = createBrowserRouter([
   {
     path: "/notawebsite",
     element: <ThisIsNotAWebsite />,
+    errorElement: <NoPage />
+  },
+  {
+    path: "/japon",
+    element: <Japon />,
     errorElement: <NoPage />
   },
 ]);
