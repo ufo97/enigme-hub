@@ -1,7 +1,4 @@
-body {
-  padding: 0;
-  margin: 0;
-}
+
 
 .App {
   text-align: center;
@@ -15,16 +12,8 @@ body {
 }
 
 .letter {display: inline}
-.red { color: red }
-.green {color: green}
-.black {color: black}
 
 .logo { margin: 0}
-
-.hub {
-  background-color: #f19d39;
-  border-radius: 5px;
-}
 
 .russie-background {
   background-image: url("../images/wallpaper_4.jpg");
