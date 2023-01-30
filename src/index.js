@@ -4,9 +4,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Blogs from './components/init/Blogs.js';
-import Russie from './components/russie/Russie';
-import NoPage from './components/common/NoPage';
+import Blogs from './components/init/Blogs';
+import Russie from './components/russie/Russie.jsx';
+import NoPage from './components/common/NoPage.jsx';
+import ThisIsNotAWebsite from "./components/thisisnotawebsite/thisisnotawebsite.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
     path: "/russie",
     element: <Russie />,
     errorElement: <NoPage />,
+  },
+  {
+    path: "/notawebsite",
+    element: <ThisIsNotAWebsite />,
+    errorElement: <NoPage />
   },
 ]);
 

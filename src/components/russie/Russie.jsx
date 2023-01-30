@@ -2,12 +2,11 @@ import React from 'react';
 import '../../assets/css/enigme-hub.css';
 
 import SousComponent from './SousComponent';
-import Title from './Title';
 import Logo from '../common/Logo';
 import Histoire from './Histoire';
 import wording from '../../wording.json';
 
-const Home = () => {
+const Russie = () => {
   return (
     <div className="App">
       <div className='App-header'>
@@ -19,4 +18,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default Russie;
