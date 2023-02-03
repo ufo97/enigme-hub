@@ -5,7 +5,30 @@
         "image" : "wallpaper_4.jpg",
         "wordToGuess": "rouge"
     },
-    "histoire2" : "Où suis-je ? Pas chez moi c’est certain. Que dit ma montre GPS ? France, Charente-Maritime. Cela ressemble à une fortification en pleine mer. Voyons voir … je vais monter en haut de cette tour pour voir si je vois quelque ch… Oh qui êtes-vous ?",
+    "histoire2" : {
+        "text" : "Où suis-je ? Pas chez moi c’est certain. Que dit ma montre GPS ? France, Charente-Maritime. Cela ressemble à une fortification en pleine mer. Voyons voir … je vais monter en haut de cette tour pour voir si je vois quelque ch… Oh qui êtes-vous ?",
+        "title": "THIS IS NOT A WEBSITE",
+        "stories" : [
+            "Je ne sais qu'une chose c'est que je ne sais rien",
+            "Je pense donc je suis",
+            "L'homme est un animal politique",
+            "La mort n'est rien pour nous",
+            "L'homme est né libre, et partout il est dans les fers",
+            "Osez savoir",
+            "Les philosophes n'ont fait qu'interpréter le monde de différentes manières, ce qui importe c'est de le transformer",
+            "L'existence précède l'essence ",
+            "On ne naît pas femme on le devient",
+            "Être faible n'est pas une honte, mais le rester si",
+            "L'eau, dans 20/30 ans il y en aura plus",
+            "Connais toi toi-même",
+            "Pense par toi même",
+            "Deviens ce que tu es",
+            "Nul n'est méchant volontairement",
+            "VIDEO",
+            "Le coeur a ses raisons que la raison ignore"
+        ],
+        "solution": "triangle"
+    },
     "histoire3" : "Une maison maintenant ? Ces pictogrammes et ce mobilier me sont familiers. Mais pas le temps pour faire du tourisme je dois au plus vite m’échapper de cet endroit avant qu’on me remarque.",
     "histoire4" : "Cette musique, cette ambiance, ces motifs … On dirait bien que je viens d'atterrir dans l’Ouest de l’Europe. J’aurai bien fait un peu de tourisme pour rencontrer cette foule enragée mais le temps joue contre moi. Il faut impérativement que je trouve cette nouvelle faille.",
     "histoire5" : "On dirait bien que je viens de faire un nouveau bond en arrière. Le paysage et les habitations ne me permettent pas de me dire où suis je ni quand suis je. Je dois me faire discret pour ne pas faire de mauvaises rencontres.",
