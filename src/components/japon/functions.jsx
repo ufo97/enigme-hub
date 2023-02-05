@@ -23,11 +23,12 @@ const functions = () => {
     var b6 = document.getElementById('test6').value
     
     const button = document.getElementById('button'); 
-    if((b2&&b5&&b6)==true&&(b1&&b3&&b4)!=true){
-      button.style.backgroundColor = 'green';      
+    if((b2 && b5 && b6) == true && (b1 && b3 && b4) != true) {
+      button.style.backgroundColor = 'green';
+      button.onclick=nav;
     }
-    else{   
-      button.style.transform == 'translate('+0+'px)'?button.style.transform = 'translate('+250+'px)':button.style.transform = 'translate('+0+'px)';
+    else {   
+      button.style.transform = button.style.transform == 'translate('+0+'px)' ? 'translate('+250+'px)' : 'translate('+0+'px)';
     }
   }
 
