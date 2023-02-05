@@ -26,7 +26,7 @@ class Title extends React.Component {
           console.log('cc', concatenatedGreenLetters);
     
           if (concatenatedGreenLetters == this.props.wordToGuess) {
-            window.location.replace(wording.baseUrl + '/'); // CHANGER POUR METTRE LA PHASE 5
+            window.location.replace(wording.baseUrl + '/amerindien'); // CHANGER POUR METTRE LA PHASE 5
           }
         }
       );

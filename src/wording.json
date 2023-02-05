@@ -31,6 +31,36 @@
     },
     "histoire3" : "Une maison maintenant ? Ces pictogrammes et ce mobilier me sont familiers. Mais pas le temps pour faire du tourisme je dois au plus vite m’échapper de cet endroit avant qu’on me remarque.",
     "histoire4" : "Cette musique, cette ambiance, ces motifs … On dirait bien que je viens d'atterrir dans l’Ouest de l’Europe. J’aurai bien fait un peu de tourisme pour rencontrer cette foule enragée mais le temps joue contre moi. Il faut impérativement que je trouve cette nouvelle faille.",
-    "histoire5" : "On dirait bien que je viens de faire un nouveau bond en arrière. Le paysage et les habitations ne me permettent pas de me dire où suis je ni quand suis je. Je dois me faire discret pour ne pas faire de mauvaises rencontres.",
+    "histoire5" : {
+        "text": "On dirait bien que je viens de faire un nouveau bond en arrière. Le paysage et les habitations ne me permettent pas de me dire où suis je ni quand suis je. Je dois me faire discret pour ne pas faire de mauvaises rencontres.",
+        "initialData" : {
+            "papillonsInit" : [
+                "blanc",
+                "jaune",
+                "marron",
+                "noir",
+                "rouge"
+            ],
+            "papillonsPlaces" : [
+                {
+                    "luck" : [],
+                    "perte" : [],
+                    "danger" : []
+                },
+                {
+                    "death": [],
+                    "conseil": []
+                }
+            ]
+        },
+        "solution": {
+            "luck" : "blanc",
+            "perte" : "marron",
+            "danger" : "rouge",
+            "conseil": "jaune",
+            "death": "noir"
+        }
+        
+    },
     "histoire6" : "blablabla"
 }

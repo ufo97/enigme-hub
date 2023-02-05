@@ -10,6 +10,7 @@ const Russie = lazy(()=> import('./components/russie/Russie.jsx'));
 const NoPage = lazy(()=> import('./components/common/NoPage.jsx'));
 const Japon = lazy(()=> import('./components/japon/Japon.jsx'));
 const ThisIsNotAWebsite = lazy(()=> import('./components/thisisnotawebsite/thisisnotawebsite.jsx'));
+const Amerindien = lazy(()=> import('./components/amerindien/Amerindien.jsx'));
 
 const router = createBrowserRouter([
   {
@@ -32,10 +33,15 @@ const router = createBrowserRouter([
     element: <Japon />,
     errorElement: <NoPage />
   },
+  {
+    path: "/amerindien",
+    element: <Amerindien />,
+    errorElement: <NoPage />
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <React.Fragment>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.Fragment>
 );
