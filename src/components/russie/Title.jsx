@@ -20,10 +20,7 @@ class Title extends React.Component {
           stateOfLetters: tmpStateOfLetters
         },
         function() {
-          console.log('cc21', this.state.stateOfLetters, newValue, index);
           const concatenatedGreenLetters = this.props.text.split('').map((element, index) => this.state.stateOfLetters[index] == 'green' ? element : '').join('');
-
-          console.log('cc', concatenatedGreenLetters);
     
           if (concatenatedGreenLetters == this.props.wordToGuess) {
             window.location.replace(wording.baseUrl + '/amerindien'); // CHANGER POUR METTRE LA PHASE 5
