@@ -1,0 +1,39 @@
+body{
+    background-image: url("../images/wallpaper-phase-3.jpg");
+    background-size: 100% auto;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+#imperial{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.imperial-colomn{
+    text-align: center;
+}
+
+#bamboo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    position: absolute;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
