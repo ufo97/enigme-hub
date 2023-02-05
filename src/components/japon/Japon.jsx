@@ -16,7 +16,9 @@ const japon = () => {
       </div>
       <div id='imperial'>
         <div id='parchemin' className='imperial-colomn'>
-          text lolilol
+          <div id='parchemin-text'>
+            Il était une fois un jeune voyageur tout de pixel vêtu qui, pour regagner son époque, dû traverser une série d'épreuves. “Il marcha d’abord sur la grande muraille, puis franchit un pont brisé. Par la suite, il traversa une longue route, puis une seconde. Son bâton se brisa et, finalement, voici ce portail qui interrompt son voyage”.
+          </div>
         </div>
         <div  className='imperial-colomn'>
           <div id='bamboo'>
@@ -27,7 +29,7 @@ const japon = () => {
             <button onClick={() => validateB1('test5', 4)} id="bamboo_05"><img id='test5' value={true} src={bambou1}/></button>
             <button onClick={() => validateB1('test6', 5)} id="bamboo_06"><img id='test6' value={true} src={bambou1}/></button>
           </div>
-          <button onMouseOver={unclicked} onMouseLeave={recColor} onClick={nav} className='button' id='button'>Validation</button> 
+          <button onMouseOver={unclicked} onMouseLeave={recColor} className='button' id='button'>Validation</button> 
         </div>
       </div>
     </div>
