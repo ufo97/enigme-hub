@@ -23,7 +23,7 @@ class Title extends React.Component {
           const concatenatedGreenLetters = this.props.text.split('').map((element, index) => this.state.stateOfLetters[index] == 'green' ? element : '').join('');
     
           if (concatenatedGreenLetters == this.props.wordToGuess) {
-            window.location.replace(wording.baseUrl + '/amerindien'); // CHANGER POUR METTRE LA PHASE 5
+            window.location.replace(wording.baseUrl + '/amerindien');
           }
         }
       );
