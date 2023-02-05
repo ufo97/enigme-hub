@@ -70,7 +70,11 @@ class Amerindien extends React.Component {
         let draggedSuccessful = false;
         tmpDataPapillons.papillonsPlaces.forEach(obj => {
             for (const key in obj) {
-                if (key == destination.droppableId && obj[key].length == 0) {
+                if (key == destination.droppableId) {
+                    if (obj[key].length > 0) {
+                        tmpDataPapillons.papillonsInit.push(obj[key][0]);
+                        obj[key] = [];
+                    }
                     obj[key].push(draggableId);
                     draggedSuccessful = true;
                 } else if (key == source.droppableId) {
@@ -87,7 +91,9 @@ class Amerindien extends React.Component {
             ...prevstate,
             dataPapillons: tmpDataPapillons
         }), () => {
-            console.log(this.checkIfSolved())
+            if (this.checkIfSolved()) {
+                window.location.replace(wording.baseUrl + '/');
+            }
         })
     }
 
