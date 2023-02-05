@@ -1,0 +1,89 @@
+.amerindien {
+    text-align: center;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.rows {
+    margin-top: 70px;
+}
+
+.row {
+    margin-top: 30px;
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.row img {
+    display: table-cell;
+    text-align: center;
+    width: 150px;
+}
+
+#parchemin-btn {
+    background-color: transparent;
+    border-color: transparent;
+    position: fixed;
+    top: 750px;
+    left: 1400px;
+}
+
+#parchemin-hidden {
+}
+
+#parchemin-shown {
+    margin-left: -350px;
+    margin-top: -300px;
+    width: 700px;
+}
+
+#papillons {
+    width: 150px;
+}
+
+.papillon {
+    width: 130px !important;
+    /*position: fixed;*/
+}
+
+.on-image {
+    margin-left: -140px;
+}
+
+.droppable-img {
+    width: 200px;
+    display: inline-block;
+}
+
+/*#pap-rouge {
+    top: 50%;
+    left: 70%;
+}
+
+#pap-blanc {
+    top: 50px;
+    right: 150px;
+}
+
+#pap-jaune {
+    bottom: 50px;
+    left: 150px;
+}
+
+#pap-marron {
+    bottom: 50px;
+    right: 150px;
+}
+
+#pap-noir {
+    top: 50px;
+    left: 150px;
+}*/
