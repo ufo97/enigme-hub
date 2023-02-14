@@ -25,7 +25,7 @@ class Enigme extends React.Component {
 
     checkWordSubmitted() {
       if (document.getElementById("mystere").value.toLowerCase() === wording.histoire2.solution) {
-        window.location.replace(wording.baseUrl + '/russie');
+        window.location.replace(wording.baseUrl + '/japon');
       }
       else {
         document.getElementById("bad-answer").textContent = 'Oups... mauvaise réponse';

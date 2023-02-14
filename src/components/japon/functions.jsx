@@ -11,7 +11,7 @@ const functions = () => {
   }
 
   const nav = () => {
-    window.location.replace(wording.baseUrl + '/');
+    window.location.replace(wording.baseUrl + '/russie');
   };
 
   const unclicked = () => {
