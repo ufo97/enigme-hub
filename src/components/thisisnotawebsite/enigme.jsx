@@ -1,7 +1,6 @@
 import React from 'react';
 import wording from '../../wording.json';
 import Letter from './Letter';
-import { useNavigate } from 'react-router-dom';
 
 class Enigme extends React.Component {
     constructor(props) {
@@ -50,7 +49,7 @@ class Enigme extends React.Component {
             <p className='red' id={"bad-answer"}></p>
           </div>
           <p>{letters}</p>
-          {this.state.story}
+          <strong>{this.state.story}</strong>
         </React.Fragment>
       );
     }

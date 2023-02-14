@@ -5,13 +5,15 @@ import '../../assets/css/Step2.css';
 
 import Logo from '../common/Logo.jsx';
 import Enigme from './enigme';
+import Background from '../../assets/images/notawebsite/wallpaper.jpg';
+import Heros from '../../assets/images/heros/hero_marche.png';
 
 const ThisIsNotAWebsite = () => {
     return (
         <div className="not-website">
-            <Logo />
-            <br />
+            <img src={Background} id="bg" />
             <Enigme />
+            <img src={Heros} id="heros" />
         </div>
     );
 }

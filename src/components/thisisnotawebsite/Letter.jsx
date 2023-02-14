@@ -13,7 +13,7 @@ class Letter extends React.Component {
 
     handleClick() {
       const hiddenStory = this.state.hiddenStory !== 'VIDEO' ?
-        <p hidden={!this.state.isStoryHidden}>{this.state.hiddenStory}</p> : 
+        <p className='story' hidden={!this.state.isStoryHidden}>{this.state.hiddenStory}</p> : 
         <video src={require('../../assets/videos/Enigme.mp4')} width="600" height="300" controls="controls" autoPlay={true} />;
 
       if (!this.state.isSpace) {
