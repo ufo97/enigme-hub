@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../assets/css/enigme-hub.css';
 import '../../assets/css/style.css';
 import '../../assets/css/Step2.css';
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 
-import '../../assets/css/enigme-hub.css';
 import '../../assets/css/style.css';
 import '../../assets/css/Step5.css';
 

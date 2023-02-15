@@ -2,7 +2,7 @@
     "baseUrl": "http://localhost:3000",
     "histoire1" : {
         "text" : "Cette musique, cette ambiance, ces motifs … On dirait bien que je viens d'atterrir dans l’Est de l’Europe. J’aurai bien fait un peu de tourisme pour rencontrer cette foule enragée mais le temps joue contre moi. Il faut impérativement que je trouve cette nouvelle faille.",
-        "image" : "wallpaper_4.jpg",
+        "image" : "russie/wallpaper_4.jpg",
         "wordToGuess": "rouge"
     },
     "histoire2" : {

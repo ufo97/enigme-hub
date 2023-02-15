@@ -1,6 +1,5 @@
 import React from 'react';
 import Letter from './Letter';
-import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import wording from '../../wording.json';
 
 class Title extends React.Component {

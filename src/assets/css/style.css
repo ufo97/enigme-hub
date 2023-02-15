@@ -17,4 +17,23 @@ body{
 .hub {
     background-color: #f19d39;
     border-radius: 5px;
-  }
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.letter {display: inline}
+
+.letter-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    padding: 0;
+}

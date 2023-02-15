@@ -8,8 +8,8 @@ class Histoire extends React.Component {
     }
     render() {
       return <React.Fragment >
-                <div className={`russie-background`}>
-                  <div>
+                <div>
+                  <div className='clickable-text'>
                     <Title text={wording.histoire1.text} wordToGuess={wording.histoire1.wordToGuess} />
                   </div>
                 </div>

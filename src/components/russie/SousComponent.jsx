@@ -5,7 +5,7 @@ class SousComponent extends React.Component {
       super(props);
     }
     render() {
-      return <h1>{this.props.text}</h1>;
+      return <h1 id='question'>{this.props.text}</h1>;
     }
   }
 

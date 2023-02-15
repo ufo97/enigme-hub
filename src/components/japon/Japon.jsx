@@ -6,11 +6,14 @@ import bambou1 from '../../assets/images/bambou1.png';
 import '../../assets/css/style.css';
 import '../../assets/css/Step3.css';
 
+import Heros from '../../assets/images/heros/hero_réfléchi.png';
+
 const japon = () => {
   const { validateB1, nav, unclicked, recColor } = functions();
     return (
     <>
     <div>
+      <img src={Heros} id='heros' />
       <div>
 
       </div>
