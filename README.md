@@ -9,8 +9,11 @@ Ce projet est divisé en 2 parties distinctes : la partie front et la partie bac
 Pour installer le front-end, il faut : 
 
 1/ Cloner le projet en utilisant la commande git clone.
+
 2/ Se placer dans le dossier cloné avec le terminal pour lancer npm install.
+
 3/ Une fois l'installation finie, lancez la commande npm start dans le même dossier.
+
 4/ Rendez-vous sur [http://localhost:3000](http://localhost:3000) pour voir le projet. 
 
 N'oubliez pas d'installer et de lancer le back-end avant de commencer à parcourir le site ! 
