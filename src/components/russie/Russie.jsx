@@ -3,7 +3,6 @@ import '../../assets/css/style.css';
 import '../../assets/css/Step4.css';
 
 import SousComponent from './SousComponent';
-import Logo from '../common/Logo';
 import Histoire from './Histoire';
 import wording from '../../wording.json';
 import Background from '../../assets/images/russie/wallpaper_4.jpg';

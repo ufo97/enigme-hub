@@ -13,6 +13,9 @@ class DroppableImage extends React.Component {
     }
 
     render() {
+        const isFirefox = typeof InstallTrigger !== 'undefined';
+        const classImage = "on-image" + (isFirefox ? "-firefox" : "");
+
         return <Droppable droppableId={this.state.id}>
             {(provided, snapshot) => (
                 <div
@@ -21,7 +24,7 @@ class DroppableImage extends React.Component {
                 className={"droppable-img"}>
                     <img src={this.state.src}/>
                     {this.props.papillonIn[0] &&
-                        <Papillon id={this.props.papillonIn[0]} index={0} class={"on-image"}/>
+                        <Papillon id={this.props.papillonIn[0]} index={0} class={classImage}/>
                     }
                 
                 </div>

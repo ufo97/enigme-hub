@@ -54,9 +54,15 @@
     /*position: fixed;*/
 }
 
+
 .on-image {
+    margin-top: -75px;
+}
+
+.on-image-firefox {
     margin-left: -140px;
 }
+
 
 .droppable-img {
     width: 200px;
