@@ -11,6 +11,7 @@ const NoPage = lazy(()=> import('./components/common/NoPage.jsx'));
 const Japon = lazy(()=> import('./components/japon/Japon.jsx'));
 const ThisIsNotAWebsite = lazy(()=> import('./components/thisisnotawebsite/thisisnotawebsite.jsx'));
 const Amerindien = lazy(()=> import('./components/amerindien/Amerindien.jsx'));
+const Final = lazy(()=> import('./components/final/Final.jsx'));
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
   {
     path: "/amerindien",
     element: <Amerindien />,
+    errorElement: <NoPage />
+  },
+  {
+    path: "/final",
+    element: <Final />,
     errorElement: <NoPage />
   },
 ]);

@@ -1,0 +1,30 @@
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#heros {
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    width: 250px;
+}
+
+#names {
+    position: fixed;
+    bottom: 50px;
+    left: 25%;
+}
+
+#leaderboard {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    margin: 5px;
+}
