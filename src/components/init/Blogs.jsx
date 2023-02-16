@@ -8,6 +8,7 @@ import '../../assets/css/style.css';
 
 const Blogs = () => {
   const { isShowing, toggle } = useModal();
+  localStorage.setItem('start', Date.now());
     return (
     <>
     <div id='container'>

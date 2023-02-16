@@ -91,7 +91,7 @@ class Amerindien extends React.Component {
             dataPapillons: tmpDataPapillons
         }), () => {
             if (this.checkIfSolved()) {
-                window.location.replace(wording.baseUrl + '/');
+                window.location.replace(wording.baseUrl + '/final');
             }
         })
     }
