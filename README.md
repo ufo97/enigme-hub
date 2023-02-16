@@ -20,7 +20,7 @@ N'oubliez pas d'installer et de lancer le back-end avant de commencer à parcour
 
 Pour le bon fonctionnement de l'énigme numéro 5, utilisez Firefox. 
 
-Si vous n'arrivez pas à lancer le projet, il est possible que vous ayiez besoin de remplcaer les lignes 16 et 17 dans le fichier pachage.json par ces deux lignes : 
+Si vous n'arrivez pas à lancer le projet, il est possible que vous ayiez besoin de remplacer les lignes 16 et 17 dans le fichier package.json par ces deux lignes : 
 
 ### `"start": "react-scripts --openssl-legacy-provider start",`
 ### `"build": "react-scripts --openssl-legacy-provider build",`
