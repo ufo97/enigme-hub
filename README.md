@@ -4,7 +4,7 @@ Ce projet est un projet fait par Naël DECHARTRE, Luka BURIAN, Hugo BATY et Elio
 
 ## Comment installer et lancer le projet
 
-Ce projet est divisé en 2 parties distinctes : la partie front et la partie back. Les deux doivent être installés pour le bon fonctionnement du site web, veuillez vous vous rendre sur LIEN A METTRE pour installer le back-end.
+Ce projet est divisé en 2 parties distinctes : la partie front et la partie back. Les deux doivent être installés pour le bon fonctionnement du site web, veuillez vous vous rendre sur [https://github.com/ufo97/enigme-hub-backend](https://github.com/ufo97/enigme-hub-backend) pour installer le back-end.
 
 Pour installer le front-end, il faut : 
 
