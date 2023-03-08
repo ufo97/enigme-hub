@@ -29,3 +29,6 @@ Si vous n'arrivez pas à lancer le projet, il est possible que vous ayiez besoin
 
 ### `"start": "react-scripts --openssl-legacy-provider start",`
 ### `"build": "react-scripts --openssl-legacy-provider build",`
+
+## Solution
+[https://www.youtube.com/watch?v=hyrhliA93ak](https://www.youtube.com/watch?v=hyrhliA93ak)
